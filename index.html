@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+     <div class="app">
+            <div class="heading">
+                <div class="container">
+                    <div class="heading__logo"> 
+                        <a href="">
+                            <img src="/img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="heading__search">
+                        <input type="text" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn ...">
+                        <button class="btn">
+                            <img class="heading__search--logo" src="https://salt.tikicdn.com/ts/upload/ed/5e/b8/8538366274240326978318348ea8af7c.png" alt="">
+                            <span>Tìm kiếm</span>
+                        </button>
+                    </div>
+    
+                    <div class="heading__index">
+                        <ion-icon name="person-outline"></ion-icon> 
+                        <div class="heading__index--item">
+                            <div class="heading__index--registerLogin">
+                               <span class="register"> Đăng ký</span> / <span class="login">Đăng nhập</span> 
+                            </div>
+                            <div class="heading__index--account">
+                               Tài khoản
+                            </div>
+                        </div>
+                    </div>
+             
+                    <div class="heading_cart">
+                        <div class="heading_cart--logo">
+                            <img src="https://salt.tikicdn.com/ts/upload/40/44/6c/b80ad73e5e84aeb71c08e5d8d438eaa1.png" alt="">
+                             <div class="heading_cart--quantity">0</div>
+                        </div>
+                        <span>Giỏ hàng</span>
+                    </div>
+                </div>
+
+                <div class="container2">
+                    <div class="freeship__logo">
+                        <img src="https://salt.tikicdn.com/ts/upload/e5/1d/22/61ff572362f08ead7f34ce410a4a6f96.png" alt="">
+                    </div>
+                    <ul class="list_product">
+                       <li class="list__product--item">Trái cây</li>
+                       <li class="list__product--item">Thịt,trứng</li>
+                       <li class="list__product--item">Rau cũ quả</li>
+                       <li class="list__product--item">Sữa,bơ,phô mai</li>
+                       <li class="list__product--item">Hải sản</li>
+                       <li class="list__product--item">Gạo,mì ăn liền</li>
+                       <li class="list__product--item">Bánh kẹo</li>
+                       <li class="list__product--item">Đồ uống,bia rượu</li>
+                       <li class="list__product--item oclock">
+                        <ion-icon name="alarm-outline"></ion-icon>
+                       </li>
+                    </ul>
+                    <a href="" class="tiki__seller">
+                        <img class="tiki__seller--icon" src="https://frontend.tikicdn.com/_desktop-next/static/img/icon-seller.svg">
+                        <span class="text">Bán hàng cùng Tiki</span>
+                    </a>
+                </div>
+            </div>
+
+            <main>
+                <div class="product">
+                    <div class="list__product list__product2">
+                        <li id="productChange" class="list__product--item product2 ">
+                                <a href="">Thịt, Rau Củ</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Bách Hóa</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Nhà Cửa</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Điện Tử</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Thiết Bị Số </a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Điện Thoại</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Mẹ & Bé</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Làm Đẹp</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Gia Dụng</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Thời trang nữ</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Thời trang nam</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Giày nữ</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Túi nữ</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Giày nam</a>
+                         </li>
+                        <li class="list__product--item product2">
+                                <a href="">Túi nam</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Balo & Vali</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Phụ kiện</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Đồng hồ</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href=""> "Laptop</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Quốc Tế</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">"Voucher</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">"Xe</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Sách</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Thể Thao</a>
+                        </li>
+                        <li class="list__product--item product2">
+                                <a href="">Máy ảnh</a>
+                        </li>
+                   </div>
+                        <div class="list__product--right " >
+                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                        </div>
+                        <div class="list__product--left hide" >
+                            <ion-icon name="chevron-back-outline"></ion-icon>
+                        </div>
+                </div>
+
+
+                 <picture class="webimg-container">
+
+                    <div class="webimg__left">
+  
+                            <div id="convertImg"class="webimg__left--convertImg">
+                                <img src="/img/tiki_1.webp" alt="">
+                                <img src="/img/tiki_2.webp" alt="">
+                                <img src="/img/tiki_3.webp" alt="">
+                                <img src="/img/tiki_4.webp" alt="">
+                                <img src="/img/tiki_5.webp" alt="">
+                                <img src="/img/tiki_6.webp" alt="">
+                            </div>
+                           
+                        <div class="webimg__left--iconLeft">
+                            <img class="slide-home-icon-next" src="https://salt.tikicdn.com/ts/upload/6b/59/c2/b61db5f1c32cfdc6d75e59d4fac2dbe8.png"> 
+                        </div>
+                        <div class="webimg__left--iconRight">
+                                <img class="slide-home-icon-prev" src="https://salt.tikicdn.com/ts/upload/6b/59/c2/b61db5f1c32cfdc6d75e59d4fac2dbe8.png">
+                        </div>
+
+                        <ul class="quantity_img ">
+                            <li class="quantity_img--item color">1</li>
+                            <li class="quantity_img--item">2</li>
+                            <li class="quantity_img--item">3</li>
+                            <li class="quantity_img--item">4</li>
+                            <li class="quantity_img--item">5</li>
+                            <li class="quantity_img--item">6</li>
+                        </ul>
+                    </div>
+
+                    <div class="webimg__Right">
+                        <a href="https://tiki.vn/khuyen-mai/tiki-sieu-sale-77?waypoint_id=coupon&tmsx=dc642968-ee47-4b28-99e3-302770b979b3">
+                            <img src="/img//tiki.webp" alt="">
+                        </a>
+                    </div>
+
+                </picture> 
+
+                <picture class="webimg-container2">
+                    
+                    <div class="webimg__left2">
+                        <div class="webimg__left2--heading">
+                            <div class="webimg__heading">
+                                <img src="https://frontend.tikicdn.com/_desktop-next/static/img/giasoc.svg" alt="flash deal">
+                                <img src="https://frontend.tikicdn.com/_desktop-next/static/img/dealFlashIcon.svg" alt="flash deal" class="style__Flash" width="21">
+                                <img src="https://frontend.tikicdn.com/_desktop-next/static/img/homnay.svg" alt="flash deal">
+                            <div class="webimg__left2--time">
+                                <span id="hours"></span>:<span id="minute"></span>:<span id="second"></span>
+                            </div>
+                            </div>
+                            <div class="seeMore">
+                                <a href="">Xem thêm</a>
+                            </div>
+                        </div>
+
+                        <div class="container2__index">
+                            <div id="container2"class="container__list">
+
+                                <div class="container__product">
+                                    <img class="container__product--img"alt="Túi Nước Giặt Omo Matic Cho Máy Giặt Cửa Trước Bền Đẹp Bền Màu Sau 100 Lần Giặt 3.6Kg" src="https://salt.tikicdn.com/cache/200x200/media/catalog/producttmp/05/42/2b/284fe75e9d76af57bf103d4dd0035110.jpg" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                                    <div class="container__product--price">
+                                            <span class="price">99.000 <small>đ</small></span>
+                                            <span class="discount">-80%</span>
+                                    </div>
+                                    <div class="container__product--message">
+                                        <span>Sắp bán hết</span>
+                                        <img class="fire-icon" src="https://frontend.tikicdn.com/_desktop-next/static/img/fire_icon.svg">
+                                        <div class="background__percent" style="width:83%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="container__product">
+                                    <img class="container__product--img"alt="Túi Nước Giặt Omo Matic Cho Máy Giặt Cửa Trước Bền Đẹp Bền Màu Sau 100 Lần Giặt 3.6Kg" src="https://salt.tikicdn.com/cache/200x200/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                                    <div class="container__product--price">
+                                            <span class="price">99.000 <small>đ</small></span>
+                                            <span class="discount">-80%</span>
+                                    </div>
+                                    <div class="container__product--message">
+                                        <span>Sắp bán hết</span>
+                                        <img class="fire-icon" src="https://frontend.tikicdn.com/_desktop-next/static/img/fire_icon.svg">
+                                        <div class="background__percent" style="width:83%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="container__product">
+                                    <img class="container__product--img"alt="Túi Nước Giặt Omo Matic Cho Máy Giặt Cửa Trước Bền Đẹp Bền Màu Sau 100 Lần Giặt 3.6Kg" src="https://salt.tikicdn.com/cache/200x200/media/catalog/producttmp/0d/cc/e1/67bc07cc80fbe8af964fee6965044a7e.PNG" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                                    <div class="container__product--price">
+                                            <span class="price">99.000 <small>đ</small></span>
+                                            <span class="discount">-80%</span>
+                                    </div>
+                                    <div class="container__product--message">
+                                        <span>Sắp bán hết</span>
+                                        <img class="fire-icon" src="https://frontend.tikicdn.com/_desktop-next/static/img/fire_icon.svg">
+                                        <div class="background__percent" style="width:73%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="container__product">
+                                    <img class="container__product--img"alt="Túi Nước Giặt Omo Matic Cho Máy Giặt Cửa Trước Bền Đẹp Bền Màu Sau 100 Lần Giặt 3.6Kg" src="https://salt.tikicdn.com/cache/200x200/ts/product/89/e9/df/4848c871c21dd53d50fb534cc9c0bffc.jpg" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                                    <div class="container__product--price">
+                                            <span class="price">45.000 <small>đ</small></span>
+                                            <span class="discount">-30%</span>
+                                    </div>
+                                    <div class="container__product--message">
+                                        <span>Đã bán hết</span>
+                                        <img class="fire-icon" src="https://frontend.tikicdn.com/_desktop-next/static/img/fire_icon.svg">
+                                        <div class="background__percent" style="width:100%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="container__product">
+                                    <img class="container__product--img"alt="Túi Nước Giặt Omo Matic Cho Máy Giặt Cửa Trước Bền Đẹp Bền Màu Sau 100 Lần Giặt 3.6Kg" src="https://salt.tikicdn.com/cache/200x200/ts/product/32/b7/81/4fac00251b7ccdfa16e79eb5273b3dab.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                                    <div class="container__product--price">
+                                            <span class="price">36.000 <small>đ</small></span>
+                                            <span class="discount">-35%</span>
+                                    </div>
+                                    <div class="container__product--message  ">
+                                        <span>Vừa mở bán</span>
+                                        <img class="fire-icon hide" src="https://frontend.tikicdn.com/_desktop-next/static/img/fire_icon.svg">
+                                        <div class="background__percent" style="width:17%"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="container__product">
+                                    <img class="container__product--img"alt="Túi Nước Giặt Omo Matic Cho Máy Giặt Cửa Trước Bền Đẹp Bền Màu Sau 100 Lần Giặt 3.6Kg" src="https://salt.tikicdn.com/cache/200x200/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                                    <div class="container__product--price">
+                                            <span class="price">99.000 <small>đ</small></span>
+                                            <span class="discount">-80%</span>
+                                    </div>
+                                    <div class="container__product--message">
+                                        <span>Sắp bán hết</span>
+                                        <img class="fire-icon" src="https://frontend.tikicdn.com/_desktop-next/static/img/fire_icon.svg">
+                                        <div class="background__percent" style="width:83%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="container__product">
+                                    <img class="container__product--img"alt="Túi Nước Giặt Omo Matic Cho Máy Giặt Cửa Trước Bền Đẹp Bền Màu Sau 100 Lần Giặt 3.6Kg" src="https://salt.tikicdn.com/cache/200x200/media/catalog/producttmp/0d/cc/e1/67bc07cc80fbe8af964fee6965044a7e.PNG" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                                    <div class="container__product--price">
+                                            <span class="price">99.000 <small>đ</small></span>
+                                            <span class="discount">-80%</span>
+                                    </div>
+                                    <div class="container__product--message">
+                                        <span>Sắp bán hết</span>
+                                        <img class="fire-icon" src="https://frontend.tikicdn.com/_desktop-next/static/img/fire_icon.svg">
+                                        <div class="background__percent" style="width:73%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="container__product">
+                                    <img class="container__product--img"alt="Túi Nước Giặt Omo Matic Cho Máy Giặt Cửa Trước Bền Đẹp Bền Màu Sau 100 Lần Giặt 3.6Kg" src="https://salt.tikicdn.com/cache/200x200/ts/product/89/e9/df/4848c871c21dd53d50fb534cc9c0bffc.jpg" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                                    <div class="container__product--price">
+                                            <span class="price">45.000 <small>đ</small></span>
+                                            <span class="discount">-30%</span>
+                                    </div>
+                                    <div class="container__product--message">
+                                        <span>Đã bán hết</span>
+                                        <img class="fire-icon" src="https://frontend.tikicdn.com/_desktop-next/static/img/fire_icon.svg">
+                                        <div class="background__percent" style="width:100%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="container__product">
+                                    <img class="container__product--img"alt="Túi Nước Giặt Omo Matic Cho Máy Giặt Cửa Trước Bền Đẹp Bền Màu Sau 100 Lần Giặt 3.6Kg" src="https://salt.tikicdn.com/cache/200x200/ts/product/32/b7/81/4fac00251b7ccdfa16e79eb5273b3dab.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                                    <div class="container__product--price">
+                                            <span class="price">36.000 <small>đ</small></span>
+                                            <span class="discount">-35%</span>
+                                    </div>
+                                    <div class="container__product--message  ">
+                                        <span>Vừa mở bán</span>
+                                        <img class="fire-icon hide" src="https://frontend.tikicdn.com/_desktop-next/static/img/fire_icon.svg">
+                                        <div class="background__percent" style="width:17%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="container__product">
+                                    <img class="container__product--img"alt="Túi Nước Giặt Omo Matic Cho Máy Giặt Cửa Trước Bền Đẹp Bền Màu Sau 100 Lần Giặt 3.6Kg" src="https://salt.tikicdn.com/cache/200x200/media/catalog/producttmp/0d/cc/e1/67bc07cc80fbe8af964fee6965044a7e.PNG" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                                    <div class="container__product--price">
+                                            <span class="price">99.000 <small>đ</small></span>
+                                            <span class="discount">-80%</span>
+                                    </div>
+                                    <div class="container__product--message">
+                                        <span>Sắp bán hết</span>
+                                        <img class="fire-icon" src="https://frontend.tikicdn.com/_desktop-next/static/img/fire_icon.svg">
+                                        <div class="background__percent" style="width:73%"></div>
+                                    </div>
+                                </div>
+
+                                <span class="icon2 icon__right">
+                                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/icons/tikiNgon/nextArrow.png">
+                                </span>
+                                <span class="icon2 icon__left">
+                                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/icons/tikiNgon/nextArrow.png">
+                                </span>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="webimg__right2">
+
+                        <img id="img" class="imgVideo" alt="" style="width:477px"src="https://salt.tikicdn.com/cache/w572/ts/upload/ee/f1/10/bc58a1bcbf5ff92206bff7a3c56ab89b.png" >
+                            <video id="video-1" class="imgVideo" style="width:477px" poster="https://salt.tikicdn.com/ts/upload/bb/3b/98/404a74a9e8e0d6ba8fedf9e454159d9d.png"><source src="https://sand.tikicdn.com/ts/asavideo/19/0c/48/fdce6602418b5bd48113e4e7a7f10335.mp4" type="video/mp4"></video>
+                   
+                        <ul class="quantity_img ">
+                            <li class="quantity_img--item webimg__right2--quantity">1</li>
+                            <li class="quantity_img--item webimg__right2--quantity">2</li>
+                        </ul>
+
+                    </div>
+
+                </picture>
+
+                <picture class="webimg-container3">
+                    <img class="imgLeft" src="https://salt.tikicdn.com/cache/w200/ts/banner/67/aa/06/c2ad5ee33abdb8e66b3fea97c3de984d.png" alt="">
+                    <img class="imgMain" src="https://salt.tikicdn.com/cache/w750/ts/banner/1b/ba/95/7754698879004b64ad4b9beac225269b.png" alt="">
+                    <img class="imgRight" src="https://salt.tikicdn.com/cache/w200/ts/banner/93/0b/38/6eb80a172e77d851961f103b48b3bf27.png" alt="">
+                </picture>
+
+                <div class="webimg-container4">
+                  
+                        <a href="">
+                            <picture class="container4__img">
+                               <img style="width:48px;height:48px" src="https://salt.tikicdn.com/ts/upload/7b/fc/54/777d24de8eff003bda7a8d5f4294f9a8.gif" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo thumb">
+                            </picture>
+                            <span>Mua sắm có lợi</span>
+                        </a>
+
+                        <a href="">
+                            <picture class="container4__img">
+                                <img style="width:48px;height:48px" src="https://salt.tikicdn.com/cache/w100/ts/upload/9c/ca/37/d6e873b1421da32b76654bb274e46683.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo thumb">
+                            </picture>
+                            <span>Siêu sale 7.7</span>
+                        </a>
+
+                        <a href="">
+                            <picture class="container4__img">
+                                <img style="width:48px;height:48px" src="https://salt.tikicdn.com/cache/w100/ts/upload/68/9c/2f/6fc82a9a9713a2c2b1968e9760879f6e.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo thumb">
+                            </picture>
+                            <span>Đi chợ siêu tốc</span>
+                        </a>
+
+                        <a href="">
+                            <picture class="container4__img">
+                                <img style="width:48px;height:48px" src="https://salt.tikicdn.com/cache/w100/ts/upload/73/e0/7d/af993bdbf150763f3352ffa79e6a7117.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo thumb">
+                            </picture>
+                            <span>Đóng tiền nạp thẻ</span>
+                        </a>
+
+                        <a href="">
+                            <picture class="container4__img">
+                                <img style="width:48px;height:48px" src="https://salt.tikicdn.com/cache/w100/ts/upload/ff/20/4a/0a7c547424f2d976b6012179ed745819.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo thumb">
+                            </picture>
+                            <span>Mua bán ASA/XU</span>
+                        </a>
+
+                        <a href="">
+                            <picture class="container4__img">
+                                <img style="width:48px;height:48px" src="https://salt.tikicdn.com/cache/w100/ts/upload/73/50/e1/83afc85db37c472de60ebef6eceb41a7.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo thumb">
+                            </picture>
+                            <span>Mã giảm giá</span>
+                        </a>
+
+                        <a href="">
+                            <picture class="container4__img">
+                                <img style="width:48px;height:48px" src="https://salt.tikicdn.com/cache/w100/ts/upload/ef/ae/82/f40611ad6dfc68a0d26451582a65102f.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo thumb">
+                            </picture>
+                            <span>Bảo hiểm Tiki360</span>
+                        </a>
+
+                        <a href="">
+                            <picture class="container4__img">
+                                <img style="width:48px;height:48px" src="https://salt.tikicdn.com/cache/w100/ts/upload/52/50/73/0788d5207ec8b82e05859dfe953a4327.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo thumb">
+                            </picture>
+                            <span>Giảm đến 50%</span>
+                        </a>
+
+                        <a href="">
+                            <picture class="container4__img">
+                                <img style="width:48px;height:48px" src="https://salt.tikicdn.com/cache/w100/ts/upload/52/50/73/0788d5207ec8b82e05859dfe953a4327.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo thumb">
+                            </picture>
+                            <span>Hoàn tiền 15%</span>
+                        </a>
+
+                        <a href="">
+                            <picture class="container4__img">
+                                <img style="width:48px;height:48px" src="https://salt.tikicdn.com/cache/w100/ts/upload/4a/b2/c5/b388ee0e511889c83fab1217608fe82f.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo thumb">
+                            </picture>
+                            <span>Ưu đãi thanh toán</span>
+                        </a>
+                  
+                </div>
+
+                <picture class="webimg-container5">   
+                    <a href="">
+                        <img style="width: 295px; height: 150px;" alt="https://tiki.vn/khuyen-mai/uu-dai-bidv" src="https://salt.tikicdn.com/cache/w280/ts/banner/9c/0e/bd/d255f39768af77270c9daff76793af96.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                    </a>
+                    <a href="">
+                        <img style="width: 295px; height: 150px;" alt="https://tiki.vn/khuyen-mai/super-fashion-day?waypoint_id=TOPDEAL" src="https://salt.tikicdn.com/cache/w280/ts/banner/4c/0b/b0/8b6c80e703554407f6178d9314b54182.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                    </a>
+                    <a href="">
+                        <img style="width: 295px; height: 150px;" alt="https://tiki.vn/di-cho-online" src="https://salt.tikicdn.com/cache/w280/ts/banner/a6/c7/fc/1089f65bbc77b36033c479e5bd700914.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                    </a>
+                    <a href="">
+                        <img style="width: 295px; height: 150px;" alt="https://tiki.vn/khuyen-mai/samsung-chinh-hang-tikinow" src="https://salt.tikicdn.com/cache/w280/ts/banner/0d/6e/46/2a82ec5a945860e600648d01732f6a0b.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                    </a>
+                </picture>
+
+                <div class="webimg-container6">   
+                    <div class="container6__heading">
+                        <div class="container6__left">
+                             <img class="container6__left--img" src="https://salt.tikicdn.com/ts/upload/33/0f/67/de89fab36546a63a8f3a8b7d038bff81.png" width="24" height="24">
+                             <h1 class="container6__left--text">Thương hiệu chính hãng</h1>
+                        </div>
+                        <div class="container6__right">
+                             <h1 class="container6__right--text">XEM THÊM</h1>
+                        </div>
+                    </div>
+
+                    <div class="container6__body">
+                            <div id="container6__convertIMg" class="container6__body--img " >
+                                <div  id="conver"class="container6__img--style">
+                                    <img  alt="https://tiki.vn/khuyen-mai/bia-saigon-sabeco" src="https://salt.tikicdn.com/cache/w750/ts/banner/47/39/cf/d7078d7b9681ca5a474c8b8c694b6773.png">
+                                </div>
+                                <div class="container6__img--style ">
+                                    <img  alt="https://tiki.vn/cua-hang/ibasic" src="https://salt.tikicdn.com/cache/w750/ts/banner/70/84/38/82e87f17d9c127a4585600b3ec0175fc.jpg">
+                                </div>
+                                <div  class="container6__img--style ">
+                                    <img alt="https://tiki.vn/cua-hang/biluxury-official" src="https://salt.tikicdn.com/cache/w750/ts/banner/bd/d2/ed/d57d0a0817041e378a49fbcd337925e4.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                                </div>
+                                <div class="container6__img--style ">
+                                    <img alt="https://tiki.vn/cua-hang/gumac-official-store" src="https://salt.tikicdn.com/cache/w750/ts/banner/6a/0c/75/7213ce91610e1d0584e72e563f3a25ba.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                                </div>
+                                <div  class="container6__img--style ">
+                                    <img alt="https://tiki.vn/cua-hang/5s-official" src="https://salt.tikicdn.com/cache/w750/ts/banner/b9/ff/d5/63573aedab939d0c720af2eebacb8804.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                                </div>
+                                <div class="container6__img--style ">
+                                    <img alt="https://tiki.vn/cua-hang/pierre-cardin-viet-nam" src="https://salt.tikicdn.com/cache/w750/ts/banner/1f/7a/55/e4e0845c34c5b228efd59e2a76f4fd28.jpg" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                                </div>
+                                <div  class="container6__img--style ">
+                                    <img alt="https://tiki.vn/khuyen-mai/dai-tiec-mua-sam?waypoint_id=voucher" src="https://salt.tikicdn.com/cache/w750/ts/banner/d8/de/e0/077d8dd6adf944eab091fbb01f3b8acd.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                                </div>
+                                <div class="container6__img--style ">
+                                    <img alt="https://tiki.vn/khuyen-mai/dai-tiec-mua-sam?waypoint_id=voucher" src="https://salt.tikicdn.com/cache/w750/ts/banner/d8/de/e0/077d8dd6adf944eab091fbb01f3b8acd.png" class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo">
+                                </div>
+                            </div>
+                            <span class="icon icon__right">
+                                <ion-icon name="chevron-forward-outline"></ion-icon>
+                            </span>
+                            <span class="icon icon__left">
+                                <ion-icon name="chevron-back-outline"></ion-icon>
+                            </span>
+                            <ul class="quantity_img ">
+                                <li class="quantity_img--item container6__quantity color2">1</li>
+                                <li class="quantity_img--item container6__quantity">2</li>
+                                <li class="quantity_img--item container6__quantity">3</li>
+                                <li class="quantity_img--item container6__quantity">4</li>
+                            </ul>
+                    </div>
+                    
+                  
+                </div>
+
+            </main>
+           
+    </div>
+
+<!-- ============================================ -->
+<div class="modal hide"></div>
+    <div class="picture__modal hide">
+        <div class="picture ">
+            <div class="picture__item">
+                <img src="http://chuyengiadonghanh.com/wp-content/uploads/2021/09/y-nghia-cua-tiki-logo-la-gi-2.jpg" alt="">
+            </div>
+            <div class="picture__item">
+                <img src="https://i.ytimg.com/vi/MEA0tX9SgIY/maxresdefault.jpg" alt="">
+            </div>
+            <div class="picture__item">
+                <img src="https://simg.zalopay.com.vn/zlp-website/assets/ma_giam_gia_tiki_1_3663f032a6.jpg" alt="">
+            </div>
+            <div class="picture__item">
+                <img src="http://shopeeplus.com//upload/images/dang-ky-affiliate-tiki.jpg" alt="">
+                </div>
+                <div class="picture__item">
+                    <img src="https://simg.zalopay.com.vn/zlp-website/assets/ma_giam_gia_tiki_1_3663f032a6.jpg" alt="">
+                </div>
+            <div class="picture__item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiiwLHsd9QSQKYd2oa_qIc8NefsxAuwXwRJTazgagngvwBu7Wk3JV0lHtcshcxuadP-fA&usqp=CAU" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="appear ">
+        <div class="appear__img">
+            <img src="http://chuyengiadonghanh.com/wp-content/uploads/2021/09/y-nghia-cua-tiki-logo-la-gi-2.jpg" alt="">
+        </div>
+        <div class="appear__control close">
+            <ion-icon name="close-outline"></ion-icon>
+        </div>
+        <div class="appear__control right">
+            <ion-icon name="chevron-forward-outline"></ion-icon>
+        </div>
+        <div class="appear__control left">
+            <ion-icon name="chevron-back-outline"></ion-icon>
+        </div>
+    </div>
+
+    <div class="time hide">
+        <div class="consist">
+            <h1>Dậy sớm để thành công</h1>
+            <h2></h2>
+        </div>
+    </div>
+
+    </div>
+  
+        <div class="loginAndRegister__modal hide">
+            <div class="loginAndRegister ">
+
+                <div class="styles__Left">
+                    <h1>Xin chào,</h1>
+                    <small>Đăng nhập hoặc tạo tài khoản</small>
+                    <div class="input ">
+                        <input id="sdt" type="text" placeholder="Số điện thoại">
+                    </div>
+                    <span class="massage"></span>
+                    <button class="btn styles__Left--btn">Tiếp tục</button>
+                    <div  class="styles__Left--Gmail">
+                        <a href="">Đăng nhập bằng gmail</a>            
+                    </div>
+                    <div class="styles__Left--fbgg">
+                        <p class="styles__Left--fbgg--title">
+                            <span>Hoặc tiếp tục bằng</span>
+                        </p>
+                        <div class="styles__Left--icon">
+                            <a href="">
+                                <img class="facebook" src="https://salt.tikicdn.com/ts/upload/3a/22/45/0f04dc6e4ed55fa62dcb305fd337db6c.png" alt="facebook" >
+                            </a>
+                            <a href="">
+                                <img class="google" src="https://salt.tikicdn.com/ts/upload/1c/ac/e8/141c68302262747f5988df2aae7eb161.png" alt="google">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="styles__Left--note">
+                        <span>Bằng việc tiếp tục,bạn đã chấp nhận <a href="https://hotro.tiki.vn/s/article/dieu-khoan-su-dung">điều khoản sử dụng</a></span>      
+                    </div>
+                </div>
+
+                <div class="styles__Right">
+                    <div>
+                        <img src="https://salt.tikicdn.com/ts/upload/eb/f3/a3/25b2ccba8f33a5157f161b6a50f64a60.png" width="203">
+                        <div class="content">
+                            <h4>Mua sắm tại Tiki</h4>
+                            <sm>Siêu ưu đãi mỗi ngày</sm>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="loginAndRegister__close">
+                    <ion-icon name="close-outline"></ion-icon>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+  <script src="/action.js"></script>
+</html>

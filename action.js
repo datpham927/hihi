@@ -230,13 +230,13 @@ function convertImgVideo(){
     document.getElementById("img").style.marginLeft="-"+number2+"px"
     quantityImgVideo++;
     convert_List_quantityImg(quantityImgVideo)
-    setTimeout("convertImgVideo()",5000)
+    setTimeout("convertImgVideo()",8000)
 }
 convertImgVideo();
 
 var Flash=0;
 function convertFlash(index){
-    if(index==10){
+    if(index==2){
         Flash=0
     }
     if(index%2==0){
